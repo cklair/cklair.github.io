@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><title>Tesla sign-in</title>
+<body style="font-family:sans-serif;max-width:640px;margin:40px auto">
+<h2>Almost done</h2><p>Copy the whole address from your browser's address bar and give it to your assistant.</p>
+<p>Code: <code id="c" style="word-break:break-all"></code></p>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||'(no code found)';</script>
